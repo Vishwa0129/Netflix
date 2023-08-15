@@ -1,0 +1,179 @@
+/* CSS */
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+/** HEADER **/
+
+header {
+	background-color: #000;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	padding: 20px 50px;
+}
+
+nav {
+	flex: 1;
+}
+
+nav ul {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.search-box {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	margin-right: 20px;
+}
+
+.search-box input {
+	padding: 10px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px 0 0 5px;
+}
+
+.search-box button {
+	background-color: #e50914;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+}
+
+.button {
+	background-color: #e50914;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	margin-left: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/** HERO **/
+
+.hero {
+	background-image: url(loge.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+	padding: 100px 50px;
+}
+
+.hero h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+.hero p {
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+
+.hero button {
+	background-color: #fff;
+	color: #000;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/** CONTENT **/
+
+.content {
+	padding: 50px;
+}
+
+.row {
+	margin-bottom: 50px;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card {
+	flex-basis: calc(25% - 20px);
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.card img {
+	width: 100%;
+	height: auto;
+}
+
+.card:nth-child(4n) {
+	margin-right: 0;
+}
+
+.cards .card:last-child {
+	flex-basis: 100%;
+	margin-right: 0;
+}
+
+.cards .card:last-child img {
+	width: 100%;
+	height: auto;
+}
+
+h2 {
+	font-size: 32px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+/** FOOTER **/
+
+footer {
+	background-color: #f1f1f1;
+	padding: 20px 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+footer ul {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer li {
+	margin-right: 20px;
+}
+
+footer a {
+	color: #333;
+	text-decoration: none;
+}
+
+select {
+	border: none;
+	background-color: transparent;
+	font-size: 16px;
+	padding: 10px;
+}
